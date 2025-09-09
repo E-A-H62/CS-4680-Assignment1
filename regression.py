@@ -1,5 +1,6 @@
 # Assignment 1
 # References: https://www.kaggle.com/code/imakash3011/water-quality-prediction-7-model/notebook
+# See README for analysis, comparison, and evaluation of models
 
 # import libraries
 import pandas as pd
