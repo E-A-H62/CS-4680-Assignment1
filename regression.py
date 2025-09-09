@@ -21,6 +21,7 @@ from sklearn.metrics import accuracy_score, classification_report
 # ignore warnings
 warnings.filterwarnings('ignore')
 # read data
+# if have issues with the link, visit the referenced Kaggle notebook and redownload the data (get a new link)
 df = pd.read_csv("https://storage.googleapis.com/kagglesdsdata/datasets/1292407/2157486/water_potability.csv?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20250908%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250908T032711Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=7734b1c4e9e4936b28efa480a33140143112bceb47319184a5cde80240225138841c3dd85a2fddfb33afe665bd1ac9526f26f93e159e1ecdc25cd59b166171e8b0aec67b607583b4c250095344d7487d6f65f817d509a289b0be8d1f40d1a805d7cfcaa99fe9fb5fcb32d8ed063376ae36f27261c82b2861a8ba19c70a5b47fefaa94b0f2ad9a6cb61265ef7fac349d2144ea8d8ae80f0e0fbfbec281b8cfc0b63fdf791de768528f7665a59d4121319d2e56071d90767cb122c8965e96bf6146f9cac4e543be43923e0d24d61f7817f63e95f2d4e840a2d39714faecd874e91382935fbd6cd48e0e4a4a465f7c7260d1c07f426e522e51cb10504cb6cf318e3")
 print(df.head())
 
