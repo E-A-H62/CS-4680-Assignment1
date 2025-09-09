@@ -68,7 +68,11 @@ python water_quality_prediction.py
 
 ## Results & Evaluation
 
-This project aims to use several machine learning models to predict the potability of water (the target variable in the dataset). The script prints information about the dataset as well as the accuracy of each model after training on the dataset. Accuracy is calculated using the test set from a 67-33 train-test split, and this metric is used to compare and evaluate the performance of the three models. Out of the three, the Support Vector Machine (SVM) resulted in the highest accuracy, the Logistic Regression model resulted in the second highest accuracy, and the Decision Tree model resulted in the lowest accuracy. The SVM model performed the best with the highest number of correct predictions for water potability while the Decision Tree performed the worst because it resulted with the lowest number of correct predictions. Based on these results, the Logistic Regression model is most suited for this classification task whereas the Decision Tree model is the least suited.
+This project aims to use several machine learning models to predict the potability of water (the target variable in the dataset). The script prints information about the dataset as well as the accuracy of each model after training on the dataset. Accuracy is calculated using the test set from a 67-33 train-test split, and this metric is used to compare and evaluate the performance of the three models.
+
+![Results of Models](model_results.png)
+
+Out of the three, the Support Vector Machine (SVM) resulted in the highest accuracy, the Logistic Regression model resulted in the second highest accuracy, and the Decision Tree model resulted in the lowest accuracy. The SVM model performed the best with the highest number of correct predictions for water potability while the Decision Tree performed the worst because it resulted with the lowest number of correct predictions. Based on these results, the Logistic Regression model is most suited for this classification task whereas the Decision Tree model is the least suited.
 
 ---
 
